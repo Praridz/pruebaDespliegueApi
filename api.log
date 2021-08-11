@@ -609,3 +609,25 @@
 2021-08-11 07:08:24.830  INFO 36040 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
 2021-08-11 07:08:25.924  INFO 36040 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
 2021-08-11 07:08:26.234  INFO 36040 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:30:58.234  INFO 37516 --- [Test worker] com.pedrorios.pedroriosApplicationTests  : Starting pedroriosApplicationTests on RIDZ-CENTRAL with PID 37516 (started by prari in C:\Users\prari\Desktop\back2\pruebaTecnica-Pedro)
+2021-08-11 07:30:58.236  INFO 37516 --- [Test worker] com.pedrorios.pedroriosApplicationTests  : No active profile set, falling back to default profiles: default
+2021-08-11 07:30:59.132  INFO 37516 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-11 07:30:59.224  INFO 37516 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 3 JPA repository interfaces.
+2021-08-11 07:30:59.739  INFO 37516 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-11 07:30:59.756  INFO 37516 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-11 07:31:02.543  INFO 37516 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-11 07:31:02.612  INFO 37516 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 07:31:02.673  INFO 37516 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-08-11 07:31:02.890  INFO 37516 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-08-11 07:31:02.928  WARN 37516 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 07:31:03.064  INFO 37516 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-11 07:31:04.495  INFO 37516 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 07:31:04.508  INFO 37516 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 07:31:04.661  INFO 37516 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-11 07:31:04.710  INFO 37516 --- [Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-08-11 07:31:05.084  INFO 37516 --- [Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-08-11 07:31:05.096  INFO 37516 --- [Test worker] com.pedrorios.pedroriosApplicationTests  : Started pedroriosApplicationTests in 7.181 seconds (JVM running for 8.632)
+2021-08-11 07:31:05.367  INFO 37516 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 07:31:05.369  INFO 37516 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-11 07:31:05.370  INFO 37516 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-11 07:31:06.623  INFO 37516 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

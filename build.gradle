@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.pedrorios'
 version = ''
-sourceCompatibility = '15'
+sourceCompatibility = '11'
 
 configurations {
 	compileOnly {
