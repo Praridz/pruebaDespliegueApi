@@ -1,0 +1,443 @@
+2021-08-11 00:04:27.356  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=juan@e.c, password=1234) 
+2021-08-11 00:04:27.362  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4789eeb5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.363  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32bf4c84 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.365  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4cbb4c2d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.366  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@444fff49 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.366  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@78c7f9c2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.367  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30545132 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.368  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2618b931 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.369  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d96bf0c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.370  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a585c95 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:27.371  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48975b2d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:04:29.482  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:05:57.793  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 1 
+2021-08-11 00:05:58.109  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:06:07.938  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=juan@e.c, password=1234) 
+2021-08-11 00:06:08.884  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:06:52.874  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=1234) 
+2021-08-11 00:06:58.601  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 00:06:59.542  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:07:04.225  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:07:04.547  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:07:07.195  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:07:07.509  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:07:19.727  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:07:20.045  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:07:21.766  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:07:22.079  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:07:36.571  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:07:36.883  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:07:38.265  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:07:38.576  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:08:07.087  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:08:07.400  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:08:08.228  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:08:08.544  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:08:10.335  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:08:10.647  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:08:11.092  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:08:11.399  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:08:19.328  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=1234) 
+2021-08-11 00:08:22.451  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=pedro@e.c, password=***) 
+2021-08-11 00:08:23.380  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:10:43.802  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 00:10:43.803  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b32812b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.804  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b2bc14a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.805  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17a3c4bf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.805  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@28a734b9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.806  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3833af44 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.807  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@da71899 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.807  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4a8b3ae (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.808  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@153b4d7e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.808  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30d79912 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:43.809  WARN 35016 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5012c41 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:10:45.362  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:12:59.347  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:12:59.348  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a56ea17 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:12:59.349  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ca2b771 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:12:59.350  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c0e02dc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:12:59.351  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1154518 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:12:59.352  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@936bb89 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:12:59.352  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30168ce1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:12:59.353  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ce260dd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:12:59.354  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@77f4d3dc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:12:59.354  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b22c458 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:13:00.309  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:13:02.936  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:13:03.251  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:13:29.042  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:13:29.971  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:13:32.262  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:13:32.572  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:14:12.498  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 00:14:13.434  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:14:16.575  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:14:16.890  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:14:18.963  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:14:19.276  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:15:00.910  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:15:01.228  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:15:02.095  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:15:02.405  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:15:03.459  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:15:03.770  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:15:13.212  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:15:13.523  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:15:15.389  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:15:15.702  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:15:20.876  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:15:21.189  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:15:38.919  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:15:39.234  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:15:52.418  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:15:53.347  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:15:57.248  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:15:57.564  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:18:02.351  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:18:02.353  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63cdedea (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.353  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@f256273 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.354  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@23f3f7c6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.355  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2fddfcef (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.355  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41c8e222 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.356  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65da3692 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.357  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@59aba028 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.357  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@19510576 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.358  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f0e2d8c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:02.359  WARN 35016 --- [http-nio-8089-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b54f659 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:18:04.468  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:18:13.634  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 00:18:14.567  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:20:34.134  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:20:34.136  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26652bfe (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:34.137  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5cd01473 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:34.138  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73d70a7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:34.138  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@8889165 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:34.138  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@15b9adac (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:34.139  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@491650e4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:34.140  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2542b929 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:34.140  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@698d075d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:34.140  WARN 35016 --- [http-nio-8089-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3181030d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:20:35.110  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:23:10.976  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:23:10.978  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@45668abd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:10.978  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@503e4244 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:10.979  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6f93bec8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:10.980  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1e51e2e5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:10.981  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24e4e5be (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:10.982  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66aaf04 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:10.983  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74fd24ff (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:10.984  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65aaa64f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:10.984  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66607651 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:23:11.319  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:23:22.557  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:23:23.490  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:23:28.809  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:23:29.731  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:24:38.051  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:24:38.977  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:24:50.902  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 00:24:51.822  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:24:53.515  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:24:53.826  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:24:55.745  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:24:56.057  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:25:02.397  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:25:02.710  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:26:47.563  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:26:47.566  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@656d3da5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.567  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f1bb237 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.568  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@39a4e1e6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.569  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@35287362 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.569  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@20232a29 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.569  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62ebbe10 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.570  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c5ed87a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.571  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a9b17f0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.571  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@335016e8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:47.572  WARN 35016 --- [http-nio-8089-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@cf435ac (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:26:49.648  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:27:12.148  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:27:13.069  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:27:14.306  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:27:14.617  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:27:22.574  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 00:27:23.521  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:27:29.673  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:27:29.994  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:27:32.532  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:27:32.839  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:32:00.742  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:32:00.744  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3647fc8f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.745  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7946a3f3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.745  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@531d272a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.746  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ab70a42 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.747  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a11f7bd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.747  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66848037 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.748  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c1adfba (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.748  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e1d3b61 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.749  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b948f00 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:00.750  WARN 35016 --- [http-nio-8089-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5953317d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:32:02.862  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:33:40.911  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:33:41.228  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:35:46.023  WARN 35016 --- [http-nio-8089-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.pedrorios.models.responses.ResponseMessageCodeObject> com.pedrorios.controllers.UsuarioController.loguearse(com.pedrorios.dtos.LoginDTO) with 2 errors: [Field error in object 'loginDTO' on field 'correo': rejected value []; codes [NotEmpty.loginDTO.correo,NotEmpty.correo,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginDTO.correo,correo]; arguments []; default message [correo]]; default message [El usuario no puede ser vacío]] [Field error in object 'loginDTO' on field 'password': rejected value []; codes [NotEmpty.loginDTO.password,NotEmpty.password,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginDTO.password,password]; arguments []; default message [password]]; default message [La contraseña no puede ser vacía]] ]
+2021-08-11 00:35:52.875  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=qweqwe, password=qweqwe) 
+2021-08-11 00:35:52.877  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1485f332 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.877  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6770b999 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.878  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f9eba1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.878  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ade94cf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.879  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@bf91fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.879  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62615c02 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.880  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2c0b170c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.880  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62bd96ae (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.881  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1e71d37d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:35:52.881  WARN 35016 --- [http-nio-8089-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76980dfd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 00:36:56.877  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=qweqwe, password=qweqwe) 
+2021-08-11 00:37:00.558  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c2, password=1234) 
+2021-08-11 00:37:10.821  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c2, password=1234) 
+2021-08-11 00:37:14.492  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:37:15.423  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:37:19.152  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:37:19.474  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:37:24.451  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 00:37:25.384  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:38:12.897  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:38:13.842  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:38:33.997  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:38:34.316  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:39:38.322  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:39:39.270  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:39:47.752  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 00:39:48.065  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:39:55.977  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 00:39:56.904  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:39:59.003  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:39:59.317  INFO 35016 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:40:17.097  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:40:17.411  INFO 35016 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:40:18.186  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:40:18.504  INFO 35016 --- [http-nio-8089-exec-6] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:40:19.495  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:40:19.803  INFO 35016 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 00:40:20.824  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:40:21.188  INFO 35016 --- [http-nio-8089-exec-8] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:40:55.219  INFO 35016 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.cd, password=1234) 
+2021-08-11 00:40:58.916  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 00:40:59.842  INFO 35016 --- [http-nio-8089-exec-10] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:41:06.822  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 00:41:07.752  INFO 35016 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 00:41:18.632  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 00:41:18.943  INFO 35016 --- [http-nio-8089-exec-2] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 00:41:21.999  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 00:41:22.311  INFO 35016 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 05:58:38.245  INFO 12800 --- [main] com.pedrorios.PedroriosApplication       : Starting PedroriosApplication on RIDZ-CENTRAL with PID 12800 (C:\Users\prari\Desktop\pruebaTecnica-Pedro\build\classes\java\main started by prari in C:\Users\prari\Desktop\pruebaTecnica-Pedro)
+2021-08-11 05:58:38.248  INFO 12800 --- [main] com.pedrorios.PedroriosApplication       : No active profile set, falling back to default profiles: default
+2021-08-11 05:58:39.267  INFO 12800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-11 05:58:39.341  INFO 12800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 3 JPA repository interfaces.
+2021-08-11 05:58:39.784  INFO 12800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-08-11 05:58:39.793  INFO 12800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-11 05:58:39.794  INFO 12800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-08-11 05:58:39.905  INFO 12800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-11 05:58:39.906  INFO 12800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1625 ms
+2021-08-11 05:58:40.110  INFO 12800 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-11 05:58:40.118  INFO 12800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-11 05:58:42.274  INFO 12800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-11 05:58:42.326  INFO 12800 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 05:58:42.379  INFO 12800 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-08-11 05:58:42.430  WARN 12800 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 05:58:42.536  INFO 12800 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-08-11 05:58:42.650  INFO 12800 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-11 05:58:43.466  INFO 12800 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 05:58:43.473  INFO 12800 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 05:58:43.512  INFO 12800 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-11 05:58:43.562  INFO 12800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-08-11 05:58:43.563  INFO 12800 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-08-11 05:58:43.797  INFO 12800 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-08-11 05:58:43.811  INFO 12800 --- [main] com.pedrorios.PedroriosApplication       : Started PedroriosApplication in 5.847 seconds (JVM running for 7.121)
+2021-08-11 05:58:43.815  INFO 12800 --- [main] com.pedrorios.PedroriosApplication       : Running!!!
+2021-08-11 05:58:51.271  INFO 12800 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 05:58:51.272  INFO 12800 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-11 05:58:51.277  INFO 12800 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-08-11 05:58:51.524  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 05:58:52.580  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:00:07.367  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 06:00:07.690  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 06:05:26.998  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 06:05:27.003  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ba210fc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.005  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ba82c80 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.005  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@20a6f8f9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.006  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@495a2997 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.007  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73541599 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.008  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@39d2eb5f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.008  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ea4adac (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.009  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@362a3f7e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.010  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65811cff (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:27.011  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b278b03 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:05:29.152  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:06:24.115  INFO 12800 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 06:06:25.067  INFO 12800 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:06:40.030  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 06:06:40.973  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:06:42.353  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 06:06:42.676  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:06:48.737  INFO 12800 --- [http-nio-8089-exec-10] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=pedro@e.c, password=***) 
+2021-08-11 06:06:49.683  INFO 12800 --- [http-nio-8089-exec-10] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:06:50.814  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 06:06:51.131  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:06:55.493  INFO 12800 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : /cancelarCita is called with the path 17 
+2021-08-11 06:06:56.452  INFO 12800 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
+2021-08-11 06:06:58.121  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 06:06:58.438  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:07:03.682  INFO 12800 --- [http-nio-8089-exec-5] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 06:07:04.626  INFO 12800 --- [http-nio-8089-exec-5] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:07:10.987  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:07:11.303  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:07:32.387  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /editarCita is called with the path 9 and body AgendaDTO(id=9, fecha=2021-11-11, hora_inicio=14, hora_fin=19, elMedico=1, elPaciente=3, estado=PENDIENTE) 
+2021-08-11 06:07:33.346  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se editó la cita correctamente
+2021-08-11 06:07:34.838  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:07:35.154  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:07:44.091  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : /cancelarCita is called with the path 9 
+2021-08-11 06:07:45.024  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
+2021-08-11 06:07:46.384  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:07:46.709  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:08:10.530  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /crearCita is called with the body AgendaDTO(id=null, fecha=2021-10-13, hora_inicio=9, hora_fin=10, elMedico=1, elPaciente=2, estado=) 
+2021-08-11 06:08:11.320  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -La cita se creó correctamente
+2021-08-11 06:08:12.942  INFO 12800 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:08:13.262  INFO 12800 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:08:42.086  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 06:08:42.404  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 06:09:06.291  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.MedicoService     : /crearMedico is called with the body MedicoDTO(id=null, nombre=Juan Esteban, apellido=Lopez, estado=, cedula=12333) 
+2021-08-11 06:09:07.085  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.MedicoService     : -El medico fue creado exitosamente
+2021-08-11 06:09:08.429  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 06:09:08.761  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 06:09:14.130  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.MedicoService     : /actualizarMedico is called with the path 11
+2021-08-11 06:09:15.857  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.MedicoService     : -El medico fue desactivado exitosamente
+2021-08-11 06:09:17.575  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 06:09:17.892  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 06:09:27.438  INFO 12800 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 06:09:28.389  INFO 12800 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:09:31.259  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 06:09:31.576  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 06:11:52.739  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 06:11:52.741  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26f198c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.742  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43737fe5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.743  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24fff98d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.743  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ea637e7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.744  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5df176fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.745  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31bb0968 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.746  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@67abd73c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.747  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f91f706 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.747  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79c84d71 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:52.748  WARN 12800 --- [http-nio-8089-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10d1fb69 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:11:54.861  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:14:30.757  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 06:14:30.759  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e2d5ac4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:30.760  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61f779bf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:30.761  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73250227 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:30.763  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@775a9dfd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:30.763  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5e94269 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:30.764  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f89f9ea (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:30.765  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@466fc06 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:30.765  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27702c02 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:30.766  WARN 12800 --- [http-nio-8089-exec-8] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@68c5d88f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 06:14:31.709  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:14:39.393  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 06:14:40.316  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:14:42.184  INFO 12800 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 06:14:42.499  INFO 12800 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:14:49.198  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=pedro@e.c, password=***) 
+2021-08-11 06:14:50.126  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:14:51.565  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 06:14:51.879  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:14:59.361  INFO 12800 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 06:15:00.295  INFO 12800 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:15:02.146  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:15:02.458  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:15:09.222  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : /editarCita is called with the path 19 and body AgendaDTO(id=19, fecha=2022-01-03, hora_inicio=11, hora_fin=13, elMedico=4, elPaciente=1, estado=PENDIENTE) 
+2021-08-11 06:15:10.153  INFO 12800 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : -Se editó la cita correctamente
+2021-08-11 06:15:11.719  INFO 12800 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:15:12.030  INFO 12800 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:15:34.333  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /crearCita is called with the body AgendaDTO(id=null, fecha=2021-09-19, hora_inicio=13, hora_fin=14, elMedico=5, elPaciente=4, estado=) 
+2021-08-11 06:15:35.102  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -La cita se creó correctamente
+2021-08-11 06:15:42.620  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:15:42.933  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:15:57.813  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : /cancelarCita is called with the path 21 
+2021-08-11 06:15:58.732  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
+2021-08-11 06:15:59.551  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:15:59.859  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:16:05.225  INFO 12800 --- [http-nio-8089-exec-3] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 06:16:05.540  INFO 12800 --- [http-nio-8089-exec-3] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 06:16:40.240  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : /crearMedico is called with the body MedicoDTO(id=null, nombre=Maria, apellido=Varela, estado=, cedula=112322) 
+2021-08-11 06:16:41.007  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : -El medico fue creado exitosamente
+2021-08-11 06:16:42.368  INFO 12800 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 06:16:42.678  INFO 12800 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 06:16:45.116  INFO 12800 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : /actualizarMedico is called with the path 13
+2021-08-11 06:16:46.796  INFO 12800 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : -El medico fue desactivado exitosamente
+2021-08-11 06:16:48.127  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 06:16:48.439  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 06:16:53.821  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=daniela@e.c, password=1234) 
+2021-08-11 06:16:54.751  INFO 12800 --- [http-nio-8089-exec-9] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:16:56.393  INFO 12800 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 3 
+2021-08-11 06:16:56.705  INFO 12800 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:17:04.921  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=juan@e.c, password=1234) 
+2021-08-11 06:17:05.847  INFO 12800 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:17:08.604  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 1 
+2021-08-11 06:17:08.915  INFO 12800 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:17:13.440  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /cancelarCita is called with the path 19 
+2021-08-11 06:17:14.376  INFO 12800 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
+2021-08-11 06:17:16.357  INFO 12800 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 1 
+2021-08-11 06:17:16.678  INFO 12800 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:18:28.292  INFO 12800 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=juan@e.c, password=1234) 
+2021-08-11 06:18:29.240  INFO 12800 --- [http-nio-8089-exec-7] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:18:31.461  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 1 
+2021-08-11 06:18:31.786  INFO 12800 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:26:51.596  INFO 38876 --- [main] com.pedrorios.PedroriosApplication       : Starting PedroriosApplication on RIDZ-CENTRAL with PID 38876 (C:\Users\prari\Desktop\back2\pruebaTecnica-Pedro\build\classes\java\main started by prari in C:\Users\prari\Desktop\back2\pruebaTecnica-Pedro)
+2021-08-11 06:26:51.598  INFO 38876 --- [main] com.pedrorios.PedroriosApplication       : No active profile set, falling back to default profiles: default
+2021-08-11 06:26:52.384  INFO 38876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-11 06:26:52.443  INFO 38876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 3 JPA repository interfaces.
+2021-08-11 06:26:52.860  INFO 38876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-08-11 06:26:52.867  INFO 38876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-11 06:26:52.867  INFO 38876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-08-11 06:26:52.979  INFO 38876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-11 06:26:52.980  INFO 38876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1350 ms
+2021-08-11 06:26:53.175  INFO 38876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-11 06:26:53.182  INFO 38876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-11 06:26:55.106  INFO 38876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-11 06:26:55.144  INFO 38876 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 06:26:55.177  INFO 38876 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-08-11 06:26:55.228  WARN 38876 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 06:26:55.274  INFO 38876 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-08-11 06:26:55.357  INFO 38876 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-11 06:26:56.093  INFO 38876 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 06:26:56.100  INFO 38876 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 06:26:56.137  INFO 38876 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-11 06:26:56.184  INFO 38876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-08-11 06:26:56.185  INFO 38876 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-08-11 06:26:56.385  INFO 38876 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-08-11 06:26:56.398  INFO 38876 --- [main] com.pedrorios.PedroriosApplication       : Started PedroriosApplication in 5.093 seconds (JVM running for 5.604)
+2021-08-11 06:26:56.403  INFO 38876 --- [main] com.pedrorios.PedroriosApplication       : Running!!!
+2021-08-11 06:26:56.520  INFO 38876 --- [RMI TCP Connection(1)-172.23.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 06:26:56.520  INFO 38876 --- [RMI TCP Connection(1)-172.23.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-11 06:26:56.525  INFO 38876 --- [RMI TCP Connection(1)-172.23.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-08-11 06:27:02.055  INFO 38876 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : /obtener usuarios is called
+2021-08-11 06:27:49.693  INFO 39012 --- [Test worker] com.pedrorios.pedroriosApplicationTests  : Starting pedroriosApplicationTests on RIDZ-CENTRAL with PID 39012 (started by prari in C:\Users\prari\Desktop\back2\pruebaTecnica-Pedro)
+2021-08-11 06:27:49.694  INFO 39012 --- [Test worker] com.pedrorios.pedroriosApplicationTests  : No active profile set, falling back to default profiles: default
+2021-08-11 06:27:50.786  INFO 39012 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-11 06:27:50.977  INFO 39012 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 182ms. Found 3 JPA repository interfaces.
+2021-08-11 06:27:51.512  INFO 39012 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-11 06:27:51.530  INFO 39012 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-11 06:27:53.793  INFO 39012 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-11 06:27:53.862  INFO 39012 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 06:27:53.920  INFO 39012 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-08-11 06:27:54.109  INFO 39012 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-08-11 06:27:54.263  INFO 39012 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-11 06:27:54.279  WARN 39012 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 06:27:55.754  INFO 39012 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 06:27:55.765  INFO 39012 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 06:27:56.280  INFO 39012 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-11 06:27:56.324  INFO 39012 --- [Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories�
+2021-08-11 06:27:56.652  INFO 39012 --- [Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-08-11 06:27:56.666  INFO 39012 --- [Test worker] com.pedrorios.pedroriosApplicationTests  : Started pedroriosApplicationTests in 7.358 seconds (JVM running for 8.458)
+2021-08-11 06:27:56.906  INFO 39012 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 06:27:56.908  INFO 39012 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-11 06:27:56.908  INFO 39012 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-11 06:27:57.849  INFO 39012 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

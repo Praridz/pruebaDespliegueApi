@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: CONSULTORIA
+
+  jpa:
+    database: mysql
+    show-sql: false
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://remotemysql.com:3306/UjhZ56Bgnv
+    username: UjhZ56Bgnv
+    password: Ka2BBSaLyG
+
+server:
+  port: 8089
