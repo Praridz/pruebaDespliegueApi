@@ -441,3 +441,171 @@
 2021-08-11 06:27:56.908  INFO 39012 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2021-08-11 06:27:56.908  INFO 39012 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2021-08-11 06:27:57.849  INFO 39012 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-11 06:56:01.761  INFO 32952 --- [main] com.pedrorios.PedroriosApplication       : Starting PedroriosApplication on RIDZ-CENTRAL with PID 32952 (C:\Users\prari\Desktop\back2\pruebaTecnica-Pedro\build\classes\java\main started by prari in C:\Users\prari\Desktop\back2\pruebaTecnica-Pedro)
+2021-08-11 06:56:01.763  INFO 32952 --- [main] com.pedrorios.PedroriosApplication       : No active profile set, falling back to default profiles: default
+2021-08-11 06:56:02.495  INFO 32952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-11 06:56:02.551  INFO 32952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 3 JPA repository interfaces.
+2021-08-11 06:56:02.919  INFO 32952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-08-11 06:56:02.926  INFO 32952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-11 06:56:02.926  INFO 32952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-08-11 06:56:03.029  INFO 32952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-11 06:56:03.029  INFO 32952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1234 ms
+2021-08-11 06:56:03.216  INFO 32952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-11 06:56:03.222  INFO 32952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-11 06:56:05.168  INFO 32952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-11 06:56:05.207  INFO 32952 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 06:56:05.240  INFO 32952 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-08-11 06:56:05.241  WARN 32952 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 06:56:05.330  INFO 32952 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-08-11 06:56:05.413  INFO 32952 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-11 06:56:06.022  INFO 32952 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 06:56:06.029  INFO 32952 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 06:56:06.063  INFO 32952 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-11 06:56:06.106  INFO 32952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-08-11 06:56:06.108  INFO 32952 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-08-11 06:56:06.311  INFO 32952 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-08-11 06:56:06.323  INFO 32952 --- [main] com.pedrorios.PedroriosApplication       : Started PedroriosApplication in 4.865 seconds (JVM running for 5.355)
+2021-08-11 06:56:06.328  INFO 32952 --- [main] com.pedrorios.PedroriosApplication       : Running!!!
+2021-08-11 06:56:06.477  INFO 32952 --- [RMI TCP Connection(2)-172.23.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 06:56:06.477  INFO 32952 --- [RMI TCP Connection(2)-172.23.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-11 06:56:06.481  INFO 32952 --- [RMI TCP Connection(2)-172.23.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-08-11 06:56:51.425  INFO 32952 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=juan@e.c, password=1234) 
+2021-08-11 06:56:52.486  INFO 32952 --- [http-nio-8089-exec-2] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:56:55.418  INFO 32952 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 1 
+2021-08-11 06:56:55.738  INFO 32952 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:57:00.818  INFO 32952 --- [http-nio-8089-exec-4] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=pedro@e.c, password=***) 
+2021-08-11 06:57:01.751  INFO 32952 --- [http-nio-8089-exec-4] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:57:02.863  INFO 32952 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 06:57:03.186  INFO 32952 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:57:10.191  INFO 32952 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 06:57:11.125  INFO 32952 --- [http-nio-8089-exec-6] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 06:57:13.421  INFO 32952 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:57:13.744  INFO 32952 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:57:34.930  INFO 32952 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /crearCita is called with the body AgendaDTO(id=null, fecha=2021-11-22, hora_inicio=11, hora_fin=12, elMedico=2, elPaciente=2, estado=) 
+2021-08-11 06:57:35.734  INFO 32952 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -La cita se creó correctamente
+2021-08-11 06:57:37.449  INFO 32952 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:57:37.763  INFO 32952 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:57:52.668  INFO 32952 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : /crearCita is called with the body AgendaDTO(id=null, fecha=2021-11-12, hora_inicio=11, hora_fin=12, elMedico=3, elPaciente=1, estado=) 
+2021-08-11 06:57:53.458  INFO 32952 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : -La cita se creó correctamente
+2021-08-11 06:57:54.642  INFO 32952 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:57:54.958  INFO 32952 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:58:15.812  INFO 32952 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : /crearCita is called with the body AgendaDTO(id=null, fecha=2021-11-22, hora_inicio=14, hora_fin=15, elMedico=2, elPaciente=3, estado=) 
+2021-08-11 06:58:16.586  INFO 32952 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : -La cita se creó correctamente
+2021-08-11 06:58:18.174  INFO 32952 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:58:18.490  INFO 32952 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:58:37.186  INFO 32952 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /crearCita is called with the body AgendaDTO(id=null, fecha=2021-11-22, hora_inicio=16, hora_fin=17, elMedico=2, elPaciente=2, estado=) 
+2021-08-11 06:58:37.965  INFO 32952 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -La cita se creó correctamente
+2021-08-11 06:58:39.046  INFO 32952 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:58:39.357  INFO 32952 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 06:59:04.987  INFO 32952 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /cancelarCita is called with the path 22 
+2021-08-11 06:59:05.924  INFO 32952 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
+2021-08-11 06:59:07.175  INFO 32952 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 06:59:07.489  INFO 32952 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:00:02.916  INFO 32952 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : /editarCita is called with the path 20 and body AgendaDTO(id=20, fecha=2021-10-27, hora_inicio=9, hora_fin=10, elMedico=1, elPaciente=2, estado=PENDIENTE) 
+2021-08-11 07:00:03.857  INFO 32952 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : -Se editó la cita correctamente
+2021-08-11 07:00:19.990  INFO 32952 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 07:00:20.304  INFO 32952 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:01:22.122  INFO 32952 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 07:01:22.438  INFO 32952 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:01:31.581  INFO 32952 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:01:31.900  INFO 32952 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:01:47.881  INFO 32952 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : /crearMedico is called with the body MedicoDTO(id=null, nombre=pepe, apellido=lopez, estado=, cedula=4323422) 
+2021-08-11 07:01:48.662  INFO 32952 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : -El medico fue creado exitosamente
+2021-08-11 07:01:50.018  INFO 32952 --- [http-nio-8089-exec-8] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:01:50.338  INFO 32952 --- [http-nio-8089-exec-8] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:02:02.391  INFO 32952 --- [http-nio-8089-exec-10] com.pedrorios.services.MedicoService     : /actualizarMedico is called with the path 15
+2021-08-11 07:02:04.091  INFO 32952 --- [http-nio-8089-exec-10] com.pedrorios.services.MedicoService     : -El medico fue desactivado exitosamente
+2021-08-11 07:02:05.528  INFO 32952 --- [http-nio-8089-exec-1] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:02:05.843  INFO 32952 --- [http-nio-8089-exec-1] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:04:03.776  INFO 32952 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=pedro@e.c, password=***) 
+2021-08-11 07:04:03.781  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57e8ce15 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.782  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58dfc76c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.783  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49563204 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.784  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3579eae1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.784  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24c9f602 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.785  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@28ba150 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.785  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ab57517 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.786  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61a642 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.787  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6bf339aa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:03.787  WARN 32952 --- [http-nio-8089-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@342d84a5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-08-11 07:04:05.907  INFO 32952 --- [http-nio-8089-exec-3] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 07:04:07.200  INFO 32952 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 07:04:07.518  INFO 32952 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:04:14.512  INFO 32952 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : /cancelarCita is called with the path 25 
+2021-08-11 07:04:15.450  INFO 32952 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
+2021-08-11 07:04:16.667  INFO 32952 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 07:04:16.980  INFO 32952 --- [http-nio-8089-exec-7] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:04:22.194  INFO 32952 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 07:04:23.129  INFO 32952 --- [http-nio-8089-exec-8] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 07:04:26.053  INFO 32952 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 07:04:26.367  INFO 32952 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:04:52.764  INFO 36040 --- [main] com.pedrorios.PedroriosApplication       : Starting PedroriosApplication on RIDZ-CENTRAL with PID 36040 (C:\Users\prari\Desktop\back2\pruebaTecnica-Pedro\build\classes\java\main started by prari in C:\Users\prari\Desktop\back2\pruebaTecnica-Pedro)
+2021-08-11 07:04:52.767  INFO 36040 --- [main] com.pedrorios.PedroriosApplication       : No active profile set, falling back to default profiles: default
+2021-08-11 07:04:53.439  INFO 36040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-11 07:04:53.507  INFO 36040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 3 JPA repository interfaces.
+2021-08-11 07:04:53.913  INFO 36040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-08-11 07:04:53.922  INFO 36040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-11 07:04:53.922  INFO 36040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-08-11 07:04:54.036  INFO 36040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-11 07:04:54.036  INFO 36040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1237 ms
+2021-08-11 07:04:54.229  INFO 36040 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-11 07:04:54.236  INFO 36040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-11 07:04:56.231  INFO 36040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-11 07:04:56.276  INFO 36040 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 07:04:56.318  WARN 36040 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 07:04:56.329  INFO 36040 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-08-11 07:04:56.470  INFO 36040 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-08-11 07:04:56.571  INFO 36040 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-11 07:04:57.245  INFO 36040 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 07:04:57.252  INFO 36040 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 07:04:57.287  INFO 36040 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-11 07:04:57.334  INFO 36040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-08-11 07:04:57.335  INFO 36040 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-08-11 07:04:57.542  INFO 36040 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-08-11 07:04:57.555  INFO 36040 --- [main] com.pedrorios.PedroriosApplication       : Started PedroriosApplication in 5.094 seconds (JVM running for 5.557)
+2021-08-11 07:04:57.559  INFO 36040 --- [main] com.pedrorios.PedroriosApplication       : Running!!!
+2021-08-11 07:04:57.868  INFO 36040 --- [RMI TCP Connection(2)-172.23.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 07:04:57.868  INFO 36040 --- [RMI TCP Connection(2)-172.23.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-11 07:04:57.873  INFO 36040 --- [RMI TCP Connection(2)-172.23.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-08-11 07:05:04.913  INFO 36040 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=luis@e.c, password=***) 
+2021-08-11 07:05:05.965  INFO 36040 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 07:05:07.709  INFO 36040 --- [http-nio-8089-exec-2] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:05:08.026  INFO 36040 --- [http-nio-8089-exec-2] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:05:22.729  INFO 36040 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : /actualizarMedico is called with the path 14
+2021-08-11 07:05:24.433  INFO 36040 --- [http-nio-8089-exec-4] com.pedrorios.services.MedicoService     : -El medico fue desactivado exitosamente
+2021-08-11 07:05:25.860  INFO 36040 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:05:26.180  INFO 36040 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:05:36.977  INFO 36040 --- [http-nio-8089-exec-6] com.pedrorios.services.MedicoService     : /crearMedico is called with the body MedicoDTO(id=null, nombre=Daniela, apellido=Gomez, estado=, cedula=1232222) 
+2021-08-11 07:05:37.755  INFO 36040 --- [http-nio-8089-exec-6] com.pedrorios.services.MedicoService     : -El medico fue creado exitosamente
+2021-08-11 07:05:39.135  INFO 36040 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:05:39.459  INFO 36040 --- [http-nio-8089-exec-7] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:05:42.296  INFO 36040 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 07:05:42.611  INFO 36040 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:06:19.045  INFO 36040 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : /crearCita is called with the body AgendaDTO(id=null, fecha=2021-09-22, hora_inicio=11, hora_fin=12, elMedico=7, elPaciente=2, estado=) 
+2021-08-11 07:06:19.824  INFO 36040 --- [http-nio-8089-exec-9] com.pedrorios.services.AgendaService     : -La cita se creó correctamente
+2021-08-11 07:06:22.838  INFO 36040 --- [http-nio-8089-exec-10] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:06:23.149  INFO 36040 --- [http-nio-8089-exec-10] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:06:26.804  INFO 36040 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 07:06:27.115  INFO 36040 --- [http-nio-8089-exec-1] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:06:47.003  INFO 36040 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : /editarCita is called with the path 24 and body AgendaDTO(id=24, fecha=2021-11-22, hora_inicio=14, hora_fin=15, elMedico=8, elPaciente=3, estado=PENDIENTE) 
+2021-08-11 07:06:47.933  INFO 36040 --- [http-nio-8089-exec-3] com.pedrorios.services.AgendaService     : -Se editó la cita correctamente
+2021-08-11 07:06:49.448  INFO 36040 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 07:06:49.760  INFO 36040 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:07:21.276  INFO 36040 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:07:21.587  INFO 36040 --- [http-nio-8089-exec-5] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:07:21.791  INFO 36040 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 07:07:21.948  INFO 36040 --- [http-nio-8089-exec-6] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:07:57.255  INFO 36040 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : /cancelarCita is called with the path 23 
+2021-08-11 07:07:58.178  INFO 36040 --- [http-nio-8089-exec-8] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
+2021-08-11 07:08:02.460  INFO 36040 --- [http-nio-8089-exec-9] com.pedrorios.services.MedicoService     : /obtenerMedicosActivos is called
+2021-08-11 07:08:02.770  INFO 36040 --- [http-nio-8089-exec-9] com.pedrorios.services.MedicoService     : -Los medicos activos fueron obtenidos correctamente
+2021-08-11 07:08:05.324  INFO 36040 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : /obtenerTodasCitasPendientes is called
+2021-08-11 07:08:05.644  INFO 36040 --- [http-nio-8089-exec-10] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:08:16.966  INFO 36040 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : /loguearse is called with the body LoginDTO(correo=pedro@e.c, password=***) 
+2021-08-11 07:08:17.896  INFO 36040 --- [http-nio-8089-exec-1] com.pedrorios.services.UsuarioService    : -El usuario se logueó correctamente
+2021-08-11 07:08:19.148  INFO 36040 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 07:08:19.459  INFO 36040 --- [http-nio-8089-exec-2] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente
+2021-08-11 07:08:23.905  INFO 36040 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : /cancelarCita is called with the path 20 
+2021-08-11 07:08:24.830  INFO 36040 --- [http-nio-8089-exec-4] com.pedrorios.services.AgendaService     : -Se cancelo la cita correctamente
+2021-08-11 07:08:25.924  INFO 36040 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : /obtenerCitasPendientesPaciente is called with the path 2 
+2021-08-11 07:08:26.234  INFO 36040 --- [http-nio-8089-exec-5] com.pedrorios.services.AgendaService     : -Se obtuvo la lista de citas pendientes correctamente

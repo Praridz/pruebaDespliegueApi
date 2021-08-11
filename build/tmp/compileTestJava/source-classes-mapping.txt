@@ -1,0 +1,4 @@
+com/pedrorios/pedroriosApplicationTests.java
+ com.pedrorios.pedroriosApplicationTests
+com/pedrorios/controllers/IdeaReactiveControllerTest.java
+ com.pedrorios.controllers.IdeaReactiveControllerTest
